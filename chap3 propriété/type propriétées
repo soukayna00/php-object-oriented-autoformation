@@ -1,0 +1,11 @@
+<?php
+
+class BankAccount
+{
+    public float $balance;
+}
+
+$account = new BankAccount();
+$account->balance = 0;
+
+var_dump($account->balance); // 0
